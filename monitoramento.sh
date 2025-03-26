@@ -16,8 +16,8 @@
 # ------------------------------- VARIAVEIS ----------------------------------------- #
    LOG="/var/log/monitoramento.log" #Insira o caminho para armazenamento dos LOGS
    IP="$(hostname -I)" #INSIRA O IP DO WEBSERVER QUE DESEJA MONITORAR
-   URL_WEBHOOK="https://discord.com/api/webhooks/" # INSIRA O URL DO WEBHOOK AQUI 
-   MENSAGEM='{"username": "", "content": ""}' #INSIRA A MENSAGEM AQUI
+   URL_WEBHOOK="https://discord.com/api/webhooks/1354255292874887228/ljKqMZgq5rYAY3TK3hO1Qd_FqTMKAM2jUaPud6PDvvMSSUHIGPmpsYGivr5SA6Qd_sCK" # INSIRA O URL DO WEBHOOK AQUI 
+   MENSAGEM='{"username": "Hunting Nginx", "content": ":no_entry_sign: SERVIDOR ESTÁ OFFLINE \n\n:tools:Estamos em manutenção!"}' #INSIRA A MENSAGEM AQUI
 #   
 # ------------------------------- FUNÇÕES ----------------------------------------- #
 Monitoria () {

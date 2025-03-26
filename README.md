@@ -98,6 +98,7 @@ Edite o arquivo nginx.service usando:
 
 -Crie um arquivo ".sh" e insira o seguinte script:
 
+    #!/bin/bash
     LOG="/var/log/monitoramento.log"  #Insira o caminho para armazenamento dos LOGS
     
     IP="$(hostname  -I)"  #INSIRA O IP DO WEBSERVER QUE DESEJA MONITORAR
